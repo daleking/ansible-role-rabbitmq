@@ -21,7 +21,7 @@
     name: "ha-all"
     pattern: '^(?!amq\.).*'
     tags: "ha-mode=all"
-  delegate_to: "{{ groups['rabbitmq'][0] }}"
+  delegate_to: "{{ rabbitmq_cluster_master }}"
   run_once: True
   when: rabbitmq_cluster
 
