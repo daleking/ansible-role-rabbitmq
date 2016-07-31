@@ -1,6 +1,6 @@
 ---
 # defaults file for ansible-role-rabbitmq
-rabbitmq_cluster: Flase
+rabbitmq_cluster: False
 
 # Cluster information
 rabbitmq_erlang_cookie: OMZWYPRFPJDAUGKDSXAP

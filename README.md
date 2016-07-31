@@ -10,7 +10,7 @@ None.
 
 ### `defaults/main.yml`
 
-* `rabbitmq_cluster: Flase`
+* `rabbitmq_cluster: False`
 * `rabbitmq_erlang_cookie: OMZWYPRFPJDAUGKDSXAP`
 * `rabbitmq_cluster_master: localhost`
 * `rabbitmq_users:`
